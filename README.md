@@ -26,4 +26,7 @@ Le but de ce projet est de fournir un exemple fonctionnel d'application de gesti
 - **MySQL** : Version 5.6 ou supérieure
 - **Serveur Web** : Apache ou Nginx recommandé (fonctionne sur un serveur local comme XAMPP, WAMP ou MAMP)
 
-Développé par WebAlex Solutions 2024.
+## Auteurs
+
+Développé par **Alexandre** - Développeur principal - [WebAlex Solutions](https://www.webalexsolutions.fr) - © 2024
+

@@ -1,17 +1,21 @@
 /* Styles généraux */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7fb;
-    color: #333;
+    background-color: #1b1b1b; /* Couleur de fond sombre */
+    color: #e0e0e0; /* Texte clair */
 }
 
 .container {
     max-width: 900px;
     margin-top: 50px;
+    background-color: #242424; /* Fond sombre pour le conteneur */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    color: #2d87f0;
+    color: #5294e2; /* Bleu lumineux pour les titres */
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 40px;
@@ -21,15 +25,17 @@ h1 {
 .form-control {
     font-size: 1rem;
     padding: 10px;
+    background-color: #333333; /* Fond sombre pour le champ */
+    color: #e0e0e0;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #555555;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
 
 .form-control:focus {
-    border-color: #2d87f0;
-    box-shadow: 0 0 8px rgba(45, 135, 240, 0.5);
+    border-color: #5294e2;
+    box-shadow: 0 0 8px rgba(82, 148, 226, 0.5);
 }
 
 /* Liste des notes */
@@ -38,26 +44,27 @@ h1 {
 }
 
 .note-item {
-    background-color: #ffffff;
+    background-color: #2e2e2e; /* Fond sombre des notes */
     border-radius: 8px;
     padding: 20px;
     transition: all 0.3s ease-in-out;
+    color: #e0e0e0;
 }
 
 .note-item:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
 }
 
 .note-title {
     font-size: 1.5rem;
-    color: #333;
+    color: #ffffff; /* Titre clair */
     font-weight: 600;
 }
 
 .note-content {
     font-size: 1.1rem;
-    color: #666;
+    color: #b3b3b3; /* Couleur du texte secondaire */
     margin-top: 10px;
 }
 
@@ -76,34 +83,37 @@ h1 {
 
 /* Boutons personnalisés */
 .btn-primary {
-    background-color: #2d87f0;
-    border-color: #2d87f0;
+    background-color: #5294e2;
+    border-color: #5294e2;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #2168c0;
-    border-color: #2168c0;
+    background-color: #3d73b2;
+    border-color: #3d73b2;
 }
 
 .btn-warning {
-    background-color: #ffc107;
-    border-color: #ffc107;
+    background-color: #ffa726;
+    border-color: #ffa726;
+    color: #ffffff;
 }
 
 .btn-warning:hover {
-    background-color: #e0a800;
-    border-color: #e0a800;
+    background-color: #fb8c00;
+    border-color: #fb8c00;
 }
 
 .btn-danger {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #e53935;
+    border-color: #e53935;
+    color: #ffffff;
 }
 
 .btn-danger:hover {
-    background-color: #c82333;
-    border-color: #c82333;
+    background-color: #c62828;
+    border-color: #c62828;
 }
 
 /* Responsive Design */

@@ -20,7 +20,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-bs-theme="dark">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,21 +30,21 @@
     </head>
     <body>
         <div class="container mt-5">
-            <h1 class="text-center mb-4 font-weight-bold">Créer une Nouvelle Note</h1>
+            <h1 class="text-center mb-4 font-weight-bold text-white">Créer une Nouvelle Note</h1>
             <?php if (isset($error)): ?>
                 <div class="alert alert-danger"><?= $error ?></div>
             <?php endif; ?>
-            <form method="POST" action="" class="form-container shadow-lg rounded p-4 bg-white">
+            <form method="POST" action="" class="form-container shadow-lg rounded p-4 bg-dark text-white">
                 <div class="mb-3">
-                    <label for="title" class="form-label">Titre</label>
-                    <input type="text" name="title" id="title" class="form-control" required>
+                    <label for="title" class="form-label text-white">Titre</label>
+                    <input type="text" name="title" id="title" class="form-control bg-dark text-white" required>
                 </div>
                 <div class="mb-3">
-                    <label for="content" class="form-label">Contenu</label>
-                    <textarea name="content" id="content" rows="6" class="form-control" required></textarea>
+                    <label for="content" class="form-label text-white">Contenu</label>
+                    <textarea name="content" id="content" rows="6" class="form-control bg-dark text-white" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Créer la Note</button>
-                <a href="index.php" class="btn btn-secondary ms-3">Annuler</a>
+                <button type="submit" class="btn btn-sm btn-primary">Créer la Note</button>
+                <a href="index.php" class="btn btn-sm btn-secondary ms-3">Annuler</a>
             </form>
         </div>
 

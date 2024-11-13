@@ -9,7 +9,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-bs-theme="dark">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,8 +42,8 @@
                         <p class="note-content"><?= nl2br(htmlspecialchars($note['content'])) ?></p>
                         <small class="text-muted note-date">Créé le <?= $formattedDate ?></small>
                         <div class="note-actions mt-3">
-                            <a href="edit_note.php?id=<?= $note['id'] ?>" class="btn btn-warning btn-sm">Modifier</a>
-                            <a href="delete_note.php?id=<?= $note['id'] ?>" class="btn btn-danger btn-sm">Supprimer</a>
+                            <a href="edit_note.php?id=<?= $note['id'] ?>" class="btn btn-sm btn-warning">Modifier</a>
+                            <a href="delete_note.php?id=<?= $note['id'] ?>" class="btn btn-sm btn-danger">Supprimer</a>
                         </div>
                     </div>
                 <?php endforeach; ?>
