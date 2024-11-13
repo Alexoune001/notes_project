@@ -1,4 +1,4 @@
-# Gestion de Notes - WebAlex Solutions
+# Gestion de Notes
 
 ## Description
 
@@ -25,3 +25,5 @@ Le but de ce projet est de fournir un exemple fonctionnel d'application de gesti
 - **PHP** : Version 7.4 ou supérieure
 - **MySQL** : Version 5.6 ou supérieure
 - **Serveur Web** : Apache ou Nginx recommandé (fonctionne sur un serveur local comme XAMPP, WAMP ou MAMP)
+
+Développé par WebAlex Solutions 2024.
