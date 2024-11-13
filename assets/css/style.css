@@ -1,0 +1,130 @@
+/* Styles généraux */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #2d87f0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Formulaire de recherche */
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #2d87f0;
+    box-shadow: 0 0 8px rgba(45, 135, 240, 0.5);
+}
+
+/* Liste des notes */
+.list-group {
+    margin-top: 30px;
+}
+
+.note-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.note-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.note-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.note-content {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.note-date {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.note-actions .btn {
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Boutons personnalisés */
+.btn-primary {
+    background-color: #2d87f0;
+    border-color: #2d87f0;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2168c0;
+    border-color: #2168c0;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .note-item {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .note-title {
+        font-size: 1.3rem;
+    }
+}

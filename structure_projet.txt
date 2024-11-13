@@ -1,0 +1,17 @@
+||______STRUCTURE DU PROJET______||
+├── notes_project/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── js/
+│   │       └── script.js
+│   ├── config/
+│   │   └── database.php
+│   ├── classes/
+│   │   ├── Note.php
+│   │   └── NoteManager.php
+│   ├── index.php
+│   ├── create_note.php
+│   ├── edit_note.php
+│   └── delete_note.php
+└── .htaccess
