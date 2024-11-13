@@ -1,21 +1,21 @@
 /* Styles généraux */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1b1b1b; /* Couleur de fond sombre */
-    color: #e0e0e0; /* Texte clair */
+    background-color: #1b1b1b;
+    color: #e0e0e0;
 }
 
 .container {
     max-width: 900px;
     margin-top: 50px;
-    background-color: #242424; /* Fond sombre pour le conteneur */
+    background-color: #242424;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    color: #5294e2; /* Bleu lumineux pour les titres */
+    color: #5294e2;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 40px;
@@ -25,7 +25,7 @@ h1 {
 .form-control {
     font-size: 1rem;
     padding: 10px;
-    background-color: #333333; /* Fond sombre pour le champ */
+    background-color: #333333;
     color: #e0e0e0;
     border-radius: 5px;
     border: 1px solid #555555;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .note-item {
-    background-color: #2e2e2e; /* Fond sombre des notes */
+    background-color: #2e2e2e;
     border-radius: 8px;
     padding: 20px;
     transition: all 0.3s ease-in-out;
@@ -58,13 +58,13 @@ h1 {
 
 .note-title {
     font-size: 1.5rem;
-    color: #ffffff; /* Titre clair */
+    color: #ffffff;
     font-weight: 600;
 }
 
 .note-content {
     font-size: 1.1rem;
-    color: #b3b3b3; /* Couleur du texte secondaire */
+    color: #b3b3b3;
     margin-top: 10px;
 }
 
